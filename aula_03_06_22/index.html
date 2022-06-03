@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<style>
+.logo{
+  margin-top: 10%;
+  margin-left: 40%;
+  text-align:center;
+  padding: 10px;
+  border: 5px solid gray;
+  width: 320px;
+  border-radius: 15px;
+  }
+  img{
+    width: 90%;
+  }
+</style>
+<body>
+<div class="container">
+  <div class="logo">
+    <div class="row">
+      <div class="col-sm-4">
+         <figure>
+           <img src="ilog.png"  >
+         </figure>
+      </div>
+
+      <div class="col-sm-8">
+        <form action="valida.php" method="POST">
+          <p>Usuário: <input type="text" name="usuario"></p>
+          <p>Senha: <input type="text" name="senha"></p>
+          <p><input type="submit" value="OK"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--<form action="valida.php" method="POST">
+      <p>Usuário: <input type="text" name="usuario"></p>
+      <p>Senha: <input type="text" name="senha"></p>
+      <p>OK <input type="submit" value="ok"></p>
+    </form>-->  
+</body>
+</html>
